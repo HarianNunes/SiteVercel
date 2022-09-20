@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'RobotoBold';
+    src: url(../fonts/RobotoBold.ttf);
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(../fonts/RobotoRegular.ttf);
+}
+@font-face {
+    font-family: 'RobotoThin';
+    src: url(../fonts/RobotoThin.ttf);
+}
+@font-face {
+    font-family: 'Titulo';
+    src: url(../fonts/R2.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #343a40;
+    position: relative;
+    padding: 1px;
+}
+#header h1 {
+    font-size: 100px;
+    font-family: 'Titulo';
+    margin-left: 20px;
+    text-shadow: 3px 3px 0px black;
+}
+#cabecalho {
+    color: white;
+}
+#container {
+    display: flex;
+    height: 60%;
+    position: relative;
+}
+#imagem {
+    background-color: #dddbcb;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+#conteudo h2{
+    font-family: 'RobotoBold';
+    font-size: 30px;
+}
+#conteudo p {
+    margin: 0;
+    font-family: 'RobotoThin';
+}
+#sub {
+    margin: 20px;
+    font-family: 'RobotoThin';
+}
+#sub p {
+    text-align: center;
+}
+#imagem img{
+    width: 65%;
+    border-radius: 50%;
+    border: 5px solid #f7f5ee;
+    box-shadow: 0px 0px 4px black;
+}
+#content {
+    width: 70%;
+    background-color: #f5f1e3;
+    padding: 20px;
+}
+#content h2 {
+    font-family: 'RobotoBold';
+    font-size: 40px;
+}
+#content span {
+    font-family: 'RobotoRegular';
+    font-size: 20px;
+}
+#footer {
+    height: 15%;
+    width: 100%;
+    background-color: #bdbbb0;
+    position: fixed;
+    bottom: 0px;
+    font-family: 'RobotoRegular';
+}
+#contentfooter {
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+}
+#social_icons {
+    margin: 10px 0 0 0;
+}
+@media screen and (max-width: 600px) {
+    #header {
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    #header h1 {
+        font-size: 40px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content {
+        width: 100%;
+        padding: 0;
+    }
+    #cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #cont span {
+        width: 90%;
+        text-align: center;
+    }
+    #imagem {
+        width: 100%;
+    }
+    #footer {
+        position: relative;
+    }
+    #sub p {
+        text-align: center;
+    }
+    #contentfooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #social_icons img{
+        margin: 0 5px;
+    }
+}
