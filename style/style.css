@@ -55,7 +55,7 @@ body {
 }
 #conteudo p {
     margin: 0;
-    font-family: 'RobotoThin';
+    font-family: 'RobotoRegular';
 }
 #sub {
     margin: 20px;
@@ -68,7 +68,6 @@ body {
     width: 65%;
     border-radius: 50%;
     border: 5px solid #f7f5ee;
-    box-shadow: 0px 0px 4px black;
 }
 #content {
     width: 70%;
@@ -86,8 +85,8 @@ body {
 #footer {
     height: 15%;
     width: 100%;
-    background-color: #bdbbb0;
-    position: fixed;
+    background-color: #343a40;
+    position: relative;
     bottom: 0px;
     font-family: 'RobotoRegular';
 }
